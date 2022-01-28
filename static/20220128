@@ -1,0 +1,23 @@
+#Funny
+
+It's happy time to announce security tool "Hardened Mode for Nginx", part of our Cloud-Native ADC solution.
+
+The position of this solution is #WAAP (Web App and API Protection).
+
+#WHITELIST
+
+This tool is freeware that can help you to define the WHITELIST strategy for Nginx from L3 to L7.
+
+For the release tag v1.0-L3, access your web from trusted source address (ex: CDN or Public Cloud).
+
+Happy new year!
+
+[Traditional Chinese]
+
+好消息！法泥系統 (Funny Systems) 的安全防禦工具公開啦！
+
+是個 #免費工具，像之前說的一樣
+
+新年快樂~歡迎分享~ 
+
+#牆壁文
