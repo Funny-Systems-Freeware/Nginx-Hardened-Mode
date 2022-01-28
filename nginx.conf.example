@@ -1,4 +1,4 @@
-load_module /etc/nginx/modules/hardened.so;
+load_module /etc/nginx/modules/ngx_http_hardened_module.so;
 
 events {}
 
