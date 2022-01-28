@@ -1,0 +1,28 @@
+# Funny Systems, Inc.		
+# Hardened Mode for Nginx		
+# Web App and API Protection (WAAP) Solution		
+# E-mail : info+hardened@funny.systems		
+
+# conf version
+hardened_mode_version 1;
+
+# accept: on | off
+hardened_mode on;
+
+# L3 IP
+# accept: off | cloudflare | fastly
+hardened_allow_ip_cdn off;
+
+# accept: on | off
+hardened_allow_ip_localhost on;
+
+# L3 Fetch Tool
+# accept: wget | curl
+hardened_fetch_tool wget;
+
+# accept: uint
+hardened_fetch_retry_times 2;
+
+# Notification by WebHook, GET only
+# accept: http://* | https://*
+# hardened_notify_webhook_get 'http://example.com/webhook?msg=some_msg_here&key=key_if_needed';
