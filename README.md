@@ -26,10 +26,10 @@ Hardened Mode for Nginx
 　Auto reporting while failed over to Normal Mode (Behavior of Original Nginx) by WebHook.
  
  ## Roadmap
-+ ✅ Source IP address validation
-+ ✅ IP List of CDN (ex: cloudflare, fastly...etc)
-+🚀 IP List of Public Cloud (ex: gcp, azure, aws, akamai... etc)
-+🚀🚀 Secret Sauce :)
+ + ✅ Source IP address validation
+ + ✅ IP List of CDN (ex: cloudflare, fastly...etc)
+ + 🚀 IP List of Public Cloud (ex: gcp, azure, aws, akamai... etc)
+ + 🚀🚀 Secret Sauce :)
 
 ## Known Issues
 + Commands `nginx -s reload` and `nginx -s stop` might fail in certain conditions. If encounter such error, you might have to kill nginx processes manually.
