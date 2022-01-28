@@ -1,0 +1,7 @@
+load_module /etc/nginx/modules/hardened.so;
+
+events {}
+
+http {
+  include conf.d/*.conf;
+}
