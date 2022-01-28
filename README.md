@@ -5,7 +5,7 @@ Hardened Mode for Nginx
 + [Requirements](#requirements)
 + [Features](#features)
   + [drop requests from unrusted source address](#drop-requests-from-untrusted-source-address)
-  + [get latest ip list of trusted service automatically](#get-latest-ip-list-of-trusted-service-automatically)
+  + [get latest ips list of trusted service automatically](#get-latest-ips-list-of-trusted-service-automatically)
   + [immediately error reporting](#immediately-error-reporting)
 + [Roadmap](#roadmap)
 + [Known Issue](#known-issue)
@@ -16,7 +16,7 @@ Hardened Mode for Nginx
 + nginx==1.18.0
 
 ## Features
-### Drop Request from Untrusted Source Address
+### Drop Requests from Untrusted Source Address
 　If a request comes from an address out of trusted list, it'll be drop immediately.
 
 ### Get Latest IPs List of Trusted Service Automatically
