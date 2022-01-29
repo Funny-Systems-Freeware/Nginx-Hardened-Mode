@@ -36,4 +36,4 @@ Hardened Mode for Nginx
 + Binary compatibility (ex: Nginx MODULE SIGNATURE)
 
 ## Contact Us
-Be [funny](mailto://info+hardened@funny.systems)
+[Funny Email](mailto://info+hardened@funny.systems) 😍
