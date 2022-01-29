@@ -20,7 +20,8 @@ Hardened Mode for Nginx
 　If a request comes from an address out of trusted list, it'll be drop immediately.
 
 ### Get Latest IPs List of Trusted Service Automatically
-　Make it easier to deal with ips lists provided by numerous well-known services which changed frequently. Currently supported: cloudflare, fastly.
+　Make it easier to deal with IPs lists provided by numerous well-known services which changed frequently. 
+　Currently supported: CloudFlare, Fastly.
 
 ### Immediately Error Reporting
 　Auto reporting while failed over to Normal Mode (Behavior of Original Nginx) by WebHook.
