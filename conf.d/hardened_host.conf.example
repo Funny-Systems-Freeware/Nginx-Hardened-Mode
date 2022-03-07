@@ -1,0 +1,22 @@
+#	Funny Systems, Inc.		
+#	Hardened Mode for Nginx		
+#	Web App and API Protection (WAAP) Solution		
+#	E-mail : info+hardened@funny.systems		
+			
+#	string	 "on" "off" 	
+	hardened_mode	"on"	;
+#	int	1	
+	hardened_mode_version	1	;
+			
+#L3	Fetch Tool		
+#		"wget" "curl"	
+	hardened_fetch_tool	"wget"	;
+#	int	3	
+	hardened_fetch_retry_times	3	;
+#L7	Host		
+#	string	 "on" "off" 	
+	hardened_check_http_host	"on"	;
+			
+#Notify	WebHook		
+#	string	"http://"	
+	hardened_notify_webhook_get   "https://example.com/";
